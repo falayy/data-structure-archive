@@ -1,0 +1,171 @@
+# DSA Practice Repository - .gitignore
+
+# ===========================
+# General
+# ===========================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.sublime-*
+
+# ===========================
+# Python
+# ===========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ===========================
+# Java
+# ===========================
+*.class
+*.jar
+*.war
+*.ear
+*.log
+target/
+*.iml
+.gradle/
+build/
+.classpath
+.project
+.settings/
+bin/
+out/
+
+# ===========================
+# JavaScript/Node.js
+# ===========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.eslintcache
+coverage/
+.nyc_output/
+package-lock.json
+yarn.lock
+
+# ===========================
+# Kotlin
+# ===========================
+*.kt~
+.gradle/
+build/
+.kotlin/
+kotlin-js-store/
+
+# ===========================
+# Go
+# ===========================
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Go workspace file
+go.work
+
+# ===========================
+# IDE and Editors
+# ===========================
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Eclipse
+.metadata/
+.recommenders/
+.settings/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ===========================
+# OS
+# ===========================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ===========================
+# Logs and Databases
+# ===========================
+*.log
+*.sql
+*.sqlite
+*.db
+
+# ===========================
+# Temporary files
+# ===========================
+*.tmp
+*.bak
+*.orig
+temp/
+tmp/
+
+# ===========================
+# Archives
+# ===========================
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
