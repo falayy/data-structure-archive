@@ -1,6 +1,6 @@
 # Longest Common Prefix
 
-**Source**: [LeetCode #14](https://leetcode.com/problems/two-sum/)
+**Source**: [LeetCode #14](https://leetcode.com/problems/longest-common-prefix/)
 **Difficulty**: 🟢 Easy
 
 ---
