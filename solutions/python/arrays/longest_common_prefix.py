@@ -42,24 +42,20 @@ def longest_common_prefix(strs: list[str]) -> str:
     pointer = 0
     result = ""
 
+    result = strs[0]
     while i < len(strs):
-        if i == 0:
-            longest_common_prefix = strs[i]
-        else:
-            for index, char in enumerate(strs[i]):
-                if (index >= len(result)) or (
-                    char != result[index]
-                ):
-                    break
-                if char == result[index]:
-                    pointer = pointer + 1
-
-            result = strs[i][0:pointer]
+        for index, char in enumerate(strs[i]):
+            if (index >= len(result)) or (char != result[index]):
+                break
+            if char == result[index]:
+                pointer = pointer + 1
+        result = strs[i][0:pointer]
 
         pointer = 0
         i = i + 1
 
     return result
+
 
 """
 Time Complexity: O(m*n) - where m is the length of the first string in the list and n is the number of strings
@@ -85,7 +81,7 @@ def longest_common_prefix_brute_force(strs: list[str]) -> str:
     Longest common prefix string
 
     """    
-    
+
     index = 0
     result = ""
     counter = 0
